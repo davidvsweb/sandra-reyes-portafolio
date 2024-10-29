@@ -93,7 +93,7 @@ export function MyProjects() {
               spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 10,
             },         
             1280: {
@@ -118,17 +118,15 @@ export function MyProjects() {
                 />
                 <div className="p-4 h-44 flex flex-col gap-2 items-center">
                   <h2 className="font-bold text-md">{project.title}</h2>
-                  <p className="text-sm">{project.description}</p>
-                  <div className="shadow-lg flex items-center  border border-neutral-400 rounded-full py-2 pl-4 pe-2">
+                  <p className="text-sm">{project.description}</p>                  
                     <a
-                      className="text-sm hover:text-black"
+                      className="text-sm hover:text-black shadow-lg flex items-center  border border-neutral-400 rounded-full py-2 pl-4 pe-2"
                       target="_blank"
                       href={project.url}
                     >
                       Ver más
-                    </a>
                     <ExpandCircleDownIcon className="see-more-icon" />
-                  </div>
+                    </a>                  
                 </div>
                 <div className="flex justify-around p-4">
                   <img
