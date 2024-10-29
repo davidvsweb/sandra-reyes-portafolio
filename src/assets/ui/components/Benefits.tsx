@@ -23,7 +23,7 @@ const benefits = [
 
 export function Benefits() {
   return (
-    <section className="px-4 py-8 md:p-8 bg-grey text-white" id="hard_skills">
+    <section className="px-4 py-8 md:p-8 bg-grey text-white flex justify-center" id="hard_skills">
       <div className="container">
         <h3 className="text-center mb-2 text-2xl font-bold" id="my_projects">
           Hard skills
