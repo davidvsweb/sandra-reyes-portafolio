@@ -29,8 +29,7 @@ a:hover {
 }
 
 .hard-skills-icon {
-  width: 70px;
-  filter: grayscale();
+  width: 70px;  
 }
 
 .bg-grey {

@@ -5,10 +5,10 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 export function Header() {
   return (
     <header>
-      <div className="grid md:grid-cols-3 gap-8 px-4 py-8 md:p-8 items-center">
+      <div className="grid md:grid-cols-3 gap-8 px-4 py-8 md:p-8 items-center container">
         <div className="flex justify-center">
           <img
-            className="img-fluid rounded-full w-80 md:w-full"
+            className="img-fluid rounded-full w-80 md:w-full max-w-72"
             src={profile_picture}
             alt="profile-picture"
           />

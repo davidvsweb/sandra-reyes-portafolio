@@ -2,7 +2,7 @@ import react from "./../../../assets/img/react.svg";
 import angular from "./../../../assets/img/angular.svg";
 import django from "./../../../assets/img/django.svg";
 import strapi from "./../../../assets/img/strapi.svg";
-import bootstrap from "./../../../assets/img/bootstrap.svg";
+import nextjs from "./../../../assets/img/nextjs.png";
 import wordpress from "./../../../assets/img/wordpress.svg";
 import typescript from "./../../../assets/img/typescript.svg";
 import python from "./../../../assets/img/python.svg";
@@ -25,48 +25,19 @@ export function Languages() {
           </p>
         </div>
         <div className="flex justify-around">
+          <img className="hard-skills-icon" src={nextjs} alt="nextjs-icon" />
           <img className="hard-skills-icon" src={react} alt="react-icon" />
-
           <img className="hard-skills-icon" src={angular} alt="angular-icon" />
-
+          <img className="hard-skills-icon" src={wordpress} alt="wordpress-icon" />          
           <img className="hard-skills-icon" src={django} alt="django-icon" />
-
-          <img
-            className="hard-skills-icon"
-            src={bootstrap}
-            alt="bootstrap-icon"
-          />
-
-          <img
-            className="hard-skills-icon"
-            src={wordpress}
-            alt="wordpress-icon"
-          />
-
-          <img
-            className="hard-skills-icon"
-            src={typescript}
-            alt="typescript-icon"
-          />
+          <img className="hard-skills-icon" src={strapi} alt="strapi-icon" />
         </div>
         <div className="flex justify-around">
-          <img className="hard-skills-icon" src={python} alt="python-icon" />
-          <img className="hard-skills-icon" src={strapi} alt="strapi-icon" />
-
-          <img
-            className="hard-skills-icon"
-            src={javascript}
-            alt="javascript-icon"
-          />
-
+          <img className="hard-skills-icon" src={typescript} alt="typescript-icon" />
+          <img className="hard-skills-icon" src={javascript} alt="javascript-icon" />
           <img className="hard-skills-icon" src={github} alt="github-icon" />
-
-          <img
-            className="hard-skills-icon"
-            src={analytics}
-            alt="wordpress-icon"
-          />
-
+          <img className="hard-skills-icon" src={python} alt="python-icon" />
+          <img className="hard-skills-icon" src={analytics} alt="wordpress-icon" />
           <img className="hard-skills-icon" src={node} alt="node-js-icon" />
         </div>
       </div>
