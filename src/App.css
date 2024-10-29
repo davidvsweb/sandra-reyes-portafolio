@@ -1,42 +1,87 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.bg-black {
+  background-color: #000;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.text-green {
+  color: #4ECCA3;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.background-green {
+  border: 2px solid #f9f9f9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.see-more-icon {
+  rotate: -90deg;
+  font-size: 25px;
+  margin-left: 5px;
+  color: #4ECCA3;
+  margin-bottom: 0;
+}
+
+a:hover {
+  color: #4ECCA3;
+}
+
+.hard-skills-icon {
+  width: 70px;
+  filter: grayscale();
+}
+
+.bg-grey {
+  background-color: #282A3A;
+}
+
+.description {
+  font-size: 20px;
+}
+
+header {
+  background-color: #090909;
+  color: #fff
+}
+
+@media screen and (max-width: 1200px) {
+
+  .my_name {
+    font-size: 2.2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .description {
+    font-size: 19px;
   }
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media screen and (max-width: 600px) {
+  .my_name {
+    text-align: center;
+    font-size: 2.3rem;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .position {
+    text-align: center;
+  }
 
-.read-the-docs {
-  color: #888;
+  .description {
+    text-align: center;
+  }
+
+  .download-cv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hard-skills-icon {
+    width: 50px;
+    align-self: center;
+    margin: auto;
+  }
+
+  .img-fluid {
+    width: 80%;
+    height: auto;
+  }
+
 }
