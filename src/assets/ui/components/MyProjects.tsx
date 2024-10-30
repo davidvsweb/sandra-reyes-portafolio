@@ -93,7 +93,7 @@ export function MyProjects() {
               spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 10,
             },         
             1280: {
