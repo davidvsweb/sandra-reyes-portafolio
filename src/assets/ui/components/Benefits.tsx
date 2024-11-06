@@ -34,7 +34,7 @@ export function Benefits() {
         <div className="flex flex-col md:flex-row gap-4 my-8 px-5">
           {benefits.map((benefit) => (
             <div className="flex flex-col gap-2 p-8 shadow bg-black">
-              <img src={benefit.image} alt={benefit.title} className="w-10" />
+              <img src={benefit.image} alt={benefit.title} className="w-10 text-white" />
               <div>
                 <h2 className="font-bold text-lg">{benefit.title}</h2>
                 <p className="text-gray-400">{benefit.description}</p>
