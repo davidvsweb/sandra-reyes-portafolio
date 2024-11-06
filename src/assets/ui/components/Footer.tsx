@@ -8,7 +8,7 @@ export function Footer() {
             <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="">
                     <h5 className="text-center mb-3 font-bold">Contacto</h5>
-                    <p className="d-block">Teléfono: <a href="tel:+5510750696" className="text-green font-bold">55 1075 0696</a>
+                    <p className="d-block">Teléfono: <a href="tel:+2297321499" className="text-green font-bold">229 732 1499</a>
                     </p>
                     <p className="">Correo Electrónico: <a href="mailto: vsjd.99@gmail.com"
                         className="text-green font-bold">vsjd.99@gmail.com</a></p>
