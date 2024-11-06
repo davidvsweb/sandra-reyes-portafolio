@@ -1,6 +1,5 @@
 import profile_picture from "./../../../assets/img/profile-picture.jpg";
 import CV from "./../../../assets/static/CV-VSJD.pdf";
-import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 
 export function Header() {
   return (
@@ -26,14 +25,11 @@ export function Header() {
           </p>
           <div className="flex gap-4">
             <a
-              className="text-white bg-blue-500 py-2 px-3 rounded-md hover:text-white font-bold"
+              className="bg-[#4ECCA3] py-3 px-4 rounded-md hover:text-white font-bold"
               href={CV}
               target="_blank"
             >
-              Descargar CV
-              <DownloadForOfflineIcon
-                style={{ fontSize: "35px", marginLeft: "10px" }}
-              />
+              Descargar CV              
             </a>
           </div>
         </div>

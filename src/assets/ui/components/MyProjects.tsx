@@ -1,9 +1,12 @@
 import uniclick from "./../../../assets/img/uniclick-logo.png";
 import asimexico from "./../../../assets/img/logoasi.png";
 import grupopromesa from "./../../../assets/img/logo promesa.jpg";
+import toyota from "./../../../assets/img/toyota-equipos-industriales.webp";
 import lottus from "./../../../assets/img/lottus.jpeg";
 import react from "./../../../assets/img/react.svg";
 import angular from "./../../../assets/img/angular.svg";
+import strapi from "./../../../assets/img/strapi.svg";
+import nextjs from "./../../../assets/img/nextjs.png";
 import django from "./../../../assets/img/django.svg";
 import typescript from "./../../../assets/img/typescript.svg";
 import wordpress from "./../../../assets/img/wordpress.svg";
@@ -27,12 +30,23 @@ const projects = [
     url: "https://www.lottus.com/",
     description:
       "Plataforma de educación superior superior que está revolucionando la educación en México.",
-    language1: react,
+    language1: nextjs,
     language2: typescript,
-    language3: github,
+    language3: strapi,
   },
   {
     index: 2,
+    title: "Toyota Equipos Industriales",
+    image: toyota,
+    url: "https://www.toyotafl.com.mx/",
+    description:
+      "Venta y Renta de Equipos Industriales para el manejo de materiales, accesorios, refacciones y servicios de mantenimiento en montacargas.",
+    language1: nextjs,
+    language2: strapi,
+    language3: javascript,
+  },
+  {
+    index: 3,
     title: "Grupo Promesa",
     image: grupopromesa,
     url: "https://grupopromesa.mx/",
@@ -43,10 +57,9 @@ const projects = [
     language3: django,
   },
   {
-    index: 3,
+    index: 4,
     title: "Uniclick",
     image: uniclick,
-    url: "https://www.uniclick.com.mx/",
     description:
       "Una plataforma digital de productos y servicios financieros comprometidos con el desarrollo sostenible de México",
     language1: react,
@@ -54,10 +67,9 @@ const projects = [
     language3: angular,
   },
   {
-    index: 4,
+    index: 5,
     title: "asimexico",
     image: asimexico,
-    url: "https://asimexico.org/",
     description:
       "Autoestima, Salud e Imagen es una sociedad sin fines de lucro, que ayuda personas a tener una imagen positiva",
     language1: wordpress,
@@ -95,11 +107,11 @@ export function MyProjects() {
             1024: {
               slidesPerView: 3,
               spaceBetween: 10,
-            },         
+            },
             1280: {
               slidesPerView: 4,
               spaceBetween: 10,
-            }            
+            },
           }}
           modules={[Pagination]}
           className="mySwiper"
@@ -118,15 +130,17 @@ export function MyProjects() {
                 />
                 <div className="p-4 h-44 flex flex-col gap-2 items-center">
                   <h2 className="font-bold text-md">{project.title}</h2>
-                  <p className="text-sm">{project.description}</p>                  
+                  <p className="text-sm min-h-16">{project.description}</p>
+                  {project.url && (
                     <a
-                      className="text-sm hover:text-black shadow-lg flex items-center  border border-neutral-400 rounded-full py-2 pl-4 pe-2"
+                      className="text-sm hover:text-black shadow-md flex items-center  border border-neutral-400 rounded-full py-2 pl-4 pe-2"
                       target="_blank"
                       href={project.url}
                     >
                       Ver más
-                    <ExpandCircleDownIcon className="see-more-icon" />
-                    </a>                  
+                      <ExpandCircleDownIcon className="see-more-icon" />
+                    </a>
+                  )}
                 </div>
                 <div className="flex justify-around p-4">
                   <img
