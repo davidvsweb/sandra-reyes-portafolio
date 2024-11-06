@@ -1,8 +1,8 @@
 import uniclick from "./../../../assets/img/uniclick-logo.png";
 import asimexico from "./../../../assets/img/logoasi.png";
 import grupopromesa from "./../../../assets/img/logo promesa.jpg";
-import toyota from "./../../../assets/img/toyota-equipos-industriales.webp";
-import lottus from "./../../../assets/img/lottus.jpeg";
+import toyota from "./../../../assets/img/toyota_logo_antes.jpg";
+import lottus from "./../../../assets/img/lottus-education.png";
 import react from "./../../../assets/img/react.svg";
 import angular from "./../../../assets/img/angular.svg";
 import strapi from "./../../../assets/img/strapi.svg";
@@ -25,17 +25,6 @@ import "swiper/css/scrollbar";
 const projects = [
   {
     index: 1,
-    title: "Lottus Education",
-    image: lottus,
-    url: "https://www.lottus.com/",
-    description:
-      "Plataforma de educación superior superior que está revolucionando la educación en México.",
-    language1: nextjs,
-    language2: typescript,
-    language3: strapi,
-  },
-  {
-    index: 2,
     title: "Toyota Equipos Industriales",
     image: toyota,
     url: "https://www.toyotafl.com.mx/",
@@ -45,6 +34,17 @@ const projects = [
     language2: strapi,
     language3: javascript,
   },
+  {
+    index: 2,
+    title: "Lottus Education",
+    image: lottus,
+    url: "https://www.lottus.com/",
+    description:
+      "Plataforma de educación superior superior que está revolucionando la educación en México.",
+    language1: nextjs,
+    language2: typescript,
+    language3: strapi,
+  },  
   {
     index: 3,
     title: "Grupo Promesa",
