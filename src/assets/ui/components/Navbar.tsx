@@ -11,9 +11,9 @@ export function Navbar() {
       </a>
       </div>
       <div className="flex items-center gap-4">
-        <a href="#contacto" className="text-white hover:text-white text-sm">Contacto</a>
+        <a href="#contacto" className="text-white hover:text-white text-sm font-bold">Contacto</a>
         <a
-          className="bg-[#4ECCA3] py-2 px-3 rounded-md hover:text-white font-bold text-sm"
+          className="text-white bg-[#4ECCA3] py-2 px-3 rounded-md hover:text-white font-bold text-sm"
           href={CV}
           target="_blank"
         >
