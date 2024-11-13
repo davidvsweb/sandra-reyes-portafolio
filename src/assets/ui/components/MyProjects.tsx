@@ -29,7 +29,7 @@ const projects = [
     image: toyota,
     url: "https://www.toyotafl.com.mx/",
     description:
-      "Equipos Industriales para el manejo de materiales, accesorios, refacciones y servicios de mantenimiento en montacargas.",
+      "Equipos Industriales para el manejo de materiales, refacciones y servicios en montacargas.",
     language1: nextjs,
     language2: strapi,
     language3: javascript,
