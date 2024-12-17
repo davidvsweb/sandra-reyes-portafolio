@@ -40,7 +40,7 @@ const projects = [
     image: lottus,
     url: "https://www.lottus.com/",
     description:
-      "Plataforma de educación superior superior que está revolucionando la educación en México.",
+      "Plataforma de educación superior que está revolucionando la educación en México.",
     language1: nextjs,
     language2: typescript,
     language3: strapi,
