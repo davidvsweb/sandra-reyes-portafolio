@@ -15,5 +15,5 @@ export default defineConfig({
       ]
     }
   },
-  base: "/david-web/"
+  base: "/sandra-reyes-portafolio/"
 })
