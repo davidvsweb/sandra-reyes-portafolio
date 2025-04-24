@@ -26,7 +26,7 @@ const photos = [
 export function Galery() {
   return (
     <section
-      className="px-4 py-8 md:p-8 bg-grey text-white flex justify-center"
+      className="px-4 py-8 md:p-8 bg-[#374C5C] text-white flex justify-center"
       id="hard_skills"
     >
       <div className="container max-w-6xl">

@@ -31,7 +31,7 @@ const projects = [
 
 export function MyProjects() {
   return (
-    <section className="px-4 py-8 md:p-8 w-full flex justify-center">
+    <section className="px-4 py-8 md:p-8 w-full flex justify-center bg-[#F5F1EA]">
       <div className="container max-w-6xl">
         <h3 className="text-center text-2xl font-bold mb-2" id="my_projects">
           Mi experiencia laboral
@@ -47,18 +47,20 @@ export function MyProjects() {
               key={project.title}
               className="flex flex-col md:flex-row bg-white shadow-md rounded-lg overflow-hidden"
             >
-              <div className="md:w-1/4 w-full max-h-[180px] md:max-h-[200px] overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
+              <div className="md:w-1/4 w-full flex justify-center items-center bg-white">
+                <div className="w-full h-[180px] md:h-[200px] overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-contain md:object-cover"
+                  />
+                </div>
               </div>
               <div className="p-5 md:w-3/4 flex flex-col justify-center">
                 <h2 className="font-bold text-base mb-2">{project.title}</h2>
                 <p className="text-sm mb-3 text-justify">
                   {project.description}
-                </p>                
+                </p>
               </div>
             </div>
           ))}
