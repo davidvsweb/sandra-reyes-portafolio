@@ -1,5 +1,5 @@
-import profile_picture from "./../../../assets/img/profile-picture.jpg";
-import CV from "./../../../assets/static/CV-VSJD.pdf";
+import profile_picture from "./../../../assets/img/sandra-profile-picture.jpeg";
+import CV from "./../../../assets/static/CV-SRR.pdf";
 
 export function Header() {
   return (
@@ -7,21 +7,18 @@ export function Header() {
       <div className="grid md:grid-cols-3 gap-8 px-4 py-8 md:p-8 items-center container">
         <div className="flex justify-center">
           <img
-            className="img-fluid rounded-full w-80 md:w-full max-w-72"
+            className="img-fluid aspect-3/4 rounded-full w-80 md:w-full max-w-72"
             src={profile_picture}
             alt="profile-picture"
           />
         </div>
         <div className="md:col-span-2 flex flex-col items-center md:items-start gap-4" id="about_me">
           <h1 className="text-3xl font-bold text-center md:text-left">
-            David Vázquez Sánchez
+            Sandra Reyes Rivera
           </h1>
-          <h3 className="text-green font-bold text-lg">Desarrollador Web | Front End</h3>
+          <h3 className="text-green font-bold text-lg">Licenciada en Comunicación</h3>
           <p className="text-md text-center md:text-left">
-            Soy un desarrollador web apasionado, comprometido con crear
-            proyectos de alto impacto mediante el uso de las mejores prácticas y
-            tecnologías modernas. Me enfoco en ofrecer soluciones innovadoras
-            que destacan en el mercado y brindan resultados excepcionales.
+            Soy una licenciada en comunicación apasionada. Me encanta la fotografía y he tenido el privilegio de escribir artículos para revistas especializadas. Además, disfruto dar conferencias y manejar grupos grandes, lo que me permite conectar con diversas audiencias y compartir mis conocimientos y experiencias.
           </p>
           <div className="flex gap-4">
             <a
@@ -29,7 +26,7 @@ export function Header() {
               href={CV}
               target="_blank"
             >
-              Descargar CV              
+              Descargar CV         
             </a>
           </div>
         </div>
