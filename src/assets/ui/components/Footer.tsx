@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 export function Footer() {
     return (
-        <footer className="bg-black p-5 text-white" id="contacto">
+        <footer className="bg-black p-8 text-white" id="contacto">
             <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="">
                     <h5 className="text-center mb-3 font-bold">Contacto</h5>

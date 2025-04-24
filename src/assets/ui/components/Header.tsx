@@ -8,7 +8,7 @@ export function Header() {
         <div className="container max-w-6xl grid md:grid-cols-3 gap-8">
           <div className="flex justify-center">
             <img
-              className="aspect-3/4 rounded-full w-80 md:w-full max-w-72"
+              className="rounded-full w-40 sm:w-64 md:w-full max-w-[18rem] aspect-[3/4] object-cover"
               src={profile_picture}
               alt="profile-picture"
             />

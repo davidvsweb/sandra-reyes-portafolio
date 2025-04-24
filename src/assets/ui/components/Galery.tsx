@@ -49,6 +49,9 @@ export function Galery() {
               slidesPerView: 2,
             },
             1024: {
+              slidesPerView: 2,
+            },
+            1400: {
               slidesPerView: 3,
             },
           }}
