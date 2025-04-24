@@ -1,7 +1,6 @@
-import { Benefits } from "./Benefits";
+import { Galery } from "./Galery";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
-import { Languages } from "./Languages";
 import { MyProjects } from "./MyProjects";
 import { Navbar } from "./Navbar";
 
@@ -11,8 +10,7 @@ export function Home() {
             <Navbar />
             <Header />
             <MyProjects />
-            <Benefits />
-            <Languages />
+            <Galery />            
             <Footer />
         </>
     );
