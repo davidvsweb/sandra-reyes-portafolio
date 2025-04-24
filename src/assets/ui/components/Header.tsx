@@ -5,25 +5,25 @@ export function Header() {
   return (
     <header>
       <div className="flex justify-center items-center px-4 py-8 md:p-8">
-        <div className="container max-w-6xl grid md:grid-cols-3 gap-8">
-          <div className="flex justify-center">
+        <div className=" max-w-6xl flex flex-col md:flex-row gap-8 items-center md:items-center">
+          <div className="flex justify-center md:justify-start">
             <img
-              className="rounded-full w-40 sm:w-64 md:w-full max-w-[18rem] aspect-[3/4] object-cover"
+              className="rounded-full w-40 sm:w-52 md:w-56 max-w-[16rem] aspect-square object-cover"
               src={profile_picture}
               alt="profile-picture"
             />
           </div>
           <div
-            className="md:col-span-2 flex flex-col items-center md:items-start gap-4"
+            className="flex flex-col items-center md:items-start gap-4 text-center md:text-left"
             id="about_me"
           >
-            <h1 className="text-3xl font-bold text-center md:text-left">
-              Sandra Reyes Rivera
-            </h1>
-            <h3 className="text-green font-bold text-lg text-center md:text-left">
+            <div>
+            <h1 className="text-3xl font-bold">Sandra Reyes Rivera</h1>
+            <h3 className="text-[#C9A14A] font-bold text-lg">
               Licenciada en Comunicación
             </h3>
-            <p className="text-md text-center md:text-left">
+            </div>            
+            <p className="text-md max-w-xl">
               Soy Licenciada en Comunicación con experiencia en atención al
               cliente, un área que me ha permitido fortalecer mis habilidades
               para conectar con diferentes públicos. A lo largo de mi
@@ -35,7 +35,7 @@ export function Header() {
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <a
-                className="bg-[#C9A14A] py-3 px-4 rounded-md hover:text-white font-bold"
+                className="bg-[#C9A14A] py-2 px-4 rounded-md hover:bg-[#A7822F] text-white font-bold"
                 href={CV}
                 target="_blank"
               >
