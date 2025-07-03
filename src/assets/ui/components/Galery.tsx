@@ -4,13 +4,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import photo_1 from "./../../img/galery/1.jpg";
-import photo_2 from "./../../img/galery/2.png";
-import photo_3 from "./../../img/galery/4.jpg";
-import photo_4 from "./../../img/galery/5.jpg";
-import photo_5 from "./../../img/galery/6.jpg";
-import photo_6 from "./../../img/galery/7.jpg";
-import photo_7 from "./../../img/galery/8.jpg";
-import photo_8 from "./../../img/galery/9.png";
+import photo_2 from "./../../img/galery/2.jpg";
+import photo_3 from "./../../img/galery/3.jpg";
+import photo_4 from "./../../img/galery/4.jpg";
+import photo_5 from "./../../img/galery/5.jpg";
+import photo_6 from "./../../img/galery/6.jpg";
+import photo_7 from "./../../img/galery/7.jpg";
+import photo_8 from "./../../img/galery/8.jpg";
+import photo_9 from "./../../img/galery/9.jpg";
+import photo_10 from "./../../img/galery/10.jpg";
 
 const photos = [
   photo_1,
@@ -21,6 +23,8 @@ const photos = [
   photo_6,
   photo_7,
   photo_8,
+  photo_9,
+  photo_10,
 ];
 
 export function Galery() {
@@ -67,8 +71,22 @@ export function Galery() {
               </div>
             </SwiperSlide>
           ))}
-        </Swiper>
+        </Swiper>        
+        <div className="mt-8 text-center">
+          <p className="mb-4 text-base">
+            Si quieres ver más sobre mi trabajo haz <strong>click</strong> en este enlace:
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/10lVwdjxiwjI0OZGhAp9sut4gKOs6pDQh?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-[#374C5C] font-semibold px-6 py-2 rounded-lg shadow hover:bg-gray-200 hover:text-[#C9A14A] transition"
+          >
+            Ver en Google Drive
+          </a>
+        </div>
       </div>
     </section>
   );
 }
+    

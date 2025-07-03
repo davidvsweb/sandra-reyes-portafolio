@@ -4,11 +4,18 @@ export function Navbar() {
   return (
     <nav className="flex flex-col sm:flex-row sm:justify-between sm:items-center p-5 bg-[#374C5C] gap-4 sm:gap-0">
       <div className="flex justify-center sm:justify-start items-center gap-2">
-        <a className="font-bold italic text-md text-white text-sm" href="/">
-          Sandra Reyes Rivera
+        <a className="font-bold italic text-md text-white text-base" href="/">
+          SRR
         </a>
       </div>
       <div className="flex justify-center sm:justify-end items-center gap-4">
+        <a
+          target="_blank"
+          href="https://revistabrujulamx.com/author/sandrarivera12/#google_vignette"
+          className="text-white hover:text-white text-sm font-bold"
+        >
+          Mis artículos
+        </a>
         <a
           href="#contacto"
           className="text-white hover:text-white text-sm font-bold"
