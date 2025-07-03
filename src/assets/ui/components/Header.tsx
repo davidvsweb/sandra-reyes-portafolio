@@ -4,7 +4,7 @@ import CV from "./../../../assets/static/CV-SRR.pdf";
 export function Header() {
   return (
     <header>
-      <div className="flex justify-center items-center px-4 py-8 md:p-8">
+      <div className="flex justify-center items-center px-4 py-8 md:p-12">
         <div className=" max-w-6xl flex flex-col md:flex-row gap-8 items-center md:items-center">
           <div className="flex justify-center md:justify-start">
             <img
@@ -18,20 +18,16 @@ export function Header() {
             id="about_me"
           >
             <div>
-            <h1 className="text-3xl font-bold">Sandra Reyes Rivera</h1>
-            <h3 className="text-[#C9A14A] font-bold text-lg">
-              Licenciada en Comunicación
-            </h3>
-            </div>            
+              <h1 className="text-3xl font-bold">Sandra Reyes Rivera</h1>
+              <h3 className="text-[#C9A14A] font-bold text-lg">
+                Licenciada en Comunicación
+              </h3>
+            </div>
             <p className="text-md max-w-xl">
-              Soy Licenciada en Comunicación con experiencia en atención al
-              cliente, un área que me ha permitido fortalecer mis habilidades
-              para conectar con diferentes públicos. A lo largo de mi
-              trayectoria, he buscado siempre mantenerme en constante
-              aprendizaje, lo que me ha llevado a desarrollar competencias en
-              fotografía, redacción y edición de contenido. Además, disfruto dar
-              conferencias, donde no solo comparto lo que sé, sino que también
-              aprendo de las experiencias de los demás.
+              Soy licenciada en Comunicación con experiencia en atención al
+              cliente, redacción y fotografía. También imparto conferencias,
+              espacios donde comparto conocimientos y aprendo de las
+              experiencias del público.
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <a
