@@ -1,4 +1,4 @@
-import CV from "./../../../assets/static/CV-SRR.pdf";
+import CV from "./../../../assets/static/CV-SandraReyes.pdf";
 
 export function Navbar() {
   return (
