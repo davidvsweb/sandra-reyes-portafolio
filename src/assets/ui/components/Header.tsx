@@ -31,7 +31,7 @@ export function Header() {
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <a
-                className="bg-[#C9A14A] py-2 px-4 rounded-md hover:bg-[#A7822F] text-white font-bold"
+                className="bg-[#C9A14A] py-2 px-4 rounded-md text-white font-bold"
                 href={CV}
                 target="_blank"
               >
